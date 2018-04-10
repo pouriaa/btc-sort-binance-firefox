@@ -1,0 +1,10 @@
+{
+  "name": "Sort BTC Value - Binance",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "Sort Binance funds table by BTC Value",
+  "content_scripts": [{
+    "matches": ["https://www.binance.com/userCenter/balances.html"],
+    "js": ["jquery.min.js", "inject.js"]
+  }]
+}
